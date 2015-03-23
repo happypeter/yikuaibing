@@ -23,19 +23,28 @@ body {
 
 
 .sky-content {
+  min-height: 400px;
   background: #73c7d1;
 }
 
 .banner {
   background: #fff;
 }
+.banner .container {
+  position: relative;
+}
+.banner .container .follow-us{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .topbar {
   background: none;
   border-top: 10px solid #546770;
 }
-.art-bg {
+.kid-bg {
   min-height: 415px;
-  background: url(../images/top-banner-kid.jpg) no-repeat;
+  background: url(../images/banners/kid.jpg) no-repeat;
 }
 
 ul.nav {
