@@ -53,6 +53,10 @@ ul {
   background: none;
   border-top: 10px solid #546770;
 }
+.kid-bg {
+  min-height: 415px;
+  background: url(../images/banners/kid.jpg) no-repeat;
+}
 ul.topnav {
   padding-top: 10px;
   text-align: center;
@@ -69,9 +73,10 @@ ul.topnav li a {
   padding: 5px 0;
   line-height: 18px;
 }
-.kid-bg {
-  min-height: 415px;
-  background: url(../images/banners/kid.jpg) no-repeat;
+.kid-bg .logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
 }
 
 ul.nav li {
