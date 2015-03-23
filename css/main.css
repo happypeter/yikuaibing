@@ -19,6 +19,12 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
 /* end common css */
 
 
@@ -55,6 +61,15 @@ ul.nav {
 }
 ul.nav li {
   float: left;
+  position: relative;
+}
+
+ul.nav li a {
+  position: absolute;
+  top: 27px;
+  right: 97px;
+  font-size: 18px;
+  color: white;
 }
 
 ul.nav li img {
