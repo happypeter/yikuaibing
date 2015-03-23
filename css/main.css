@@ -25,8 +25,12 @@ a {
 a:hover {
   text-decoration: none;
 }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 /* end common css */
-
 
 .sky-content {
   min-height: 400px;
@@ -43,23 +47,35 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
+  display: block;
 }
 .topbar {
   background: none;
   border-top: 10px solid #546770;
+}
+ul.topnav {
+  padding-top: 10px;
+  text-align: center;
+}
+ul.topnav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+ul.topnav li a {
+  color: #546770;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  padding: 5px 0;
+  line-height: 18px;
 }
 .kid-bg {
   min-height: 415px;
   background: url(../images/banners/kid.jpg) no-repeat;
 }
 
-ul.nav {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  margin-top: -67px;
-}
 ul.nav li {
+  margin-top: -67px;
   float: left;
   position: relative;
 }
@@ -78,11 +94,6 @@ ul.nav li img {
   display: block;
 }
 
-
-
-.content {
-  min-height: 550px;
-}
 footer {
   background: #546770;
   height: 100px;
