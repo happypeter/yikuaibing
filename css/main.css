@@ -78,6 +78,41 @@ ul.topnav li a {
   display: block;
   margin-top: 30px;
 }
+.social-icon {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 106px;
+  text-align: center;
+}
+.social-icon a {
+  display: inline-block;
+  margin: 2px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  border-radius: 18px;
+}
+.social-icon .weibo {
+  background-color: #eb606e;
+  border: 1px solid #eb606e;
+}
+.social-icon .qq {
+  background-color: #73c6d1;
+  border: 1px solid #73c6d1;
+}
+.social-icon .weixin {
+  background-color: #2bc800;
+  border: 1px solid #2bc800;
+}
+.social-icon a i {
+  line-height: 36px;
+  font-size: 18px;
+}
 
 ul.nav li {
   margin-top: -67px;
