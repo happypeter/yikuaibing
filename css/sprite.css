@@ -1,0 +1,29 @@
+.icon {
+  background-image: url('../images/sprite.png');
+  width: 240px;
+  height: 72px;
+}
+.icon-menu-blue-active {
+  background-position: -4px -4px;
+}
+.icon-menu-blue {
+  background-position: -4px -84px;
+}
+.icon-menu-red-active {
+  background-position: -4px -164px;
+}
+.icon-menu-red {
+  background-position: -4px -244px;
+}
+.icon-menu-sky-active {
+  background-position: -4px -324px;
+}
+.icon-menu-sky {
+  background-position: -4px -404px;
+}
+.icon-menu-yellow-active {
+  background-position: -4px -484px;
+}
+.icon-menu-yellow {
+  background-position: -4px -564px;
+}
